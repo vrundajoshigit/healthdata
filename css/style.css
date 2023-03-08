@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+.header {
+    background-color:mediumblue;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+#data{
+    padding-top:20px;
+    padding-left:30px;
+    padding-right:30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;    
+}
+#data tr:hover{
+    background-color:dodgerblue;
+}
+#data td, #data th{
+    border:1px solid;
+    padding:8px;
+    text-align: center;
+}
+#data th{
+    padding-top:12px;
+    padding-left:12px;
+    text-align:center;
+    color:white;
+    background-color: mediumblue;
+}
